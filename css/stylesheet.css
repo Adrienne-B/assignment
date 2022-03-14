@@ -1,0 +1,402 @@
+
+html, body {
+    margin:0;
+    padding:0;
+   /* overflow-x:hidden;*/
+   /*prevents white space from the right side*/
+}
+
+.logo {
+    background-color: #ff0000;
+    padding-bottom: 6rem;
+    width: 9%;
+}
+
+.logo p {
+    color:#fff;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    /*font-size: 32px;*/
+    left: 4rem;
+    position: absolute;
+    top: 2rem;
+    transform: translate(-50%,50%); /*this helped it to center inside of the box*/
+}
+
+/*END OF LOGO*/
+
+nav {
+  background-color: #000000;
+  overflow: hidden;
+  padding-bottom: 17px;
+  padding-top: 26px;
+}
+
+/* Style the links inside the navigation bar */
+
+nav ul {
+    display: flex;
+    margin-left: 6rem;
+    margin-top: -3px;
+}
+
+nav li {
+    flex-direction: row;
+    font-family: 'Oswald', sans-serif; 
+    list-style: none;
+    margin-right: 2px;
+}
+
+nav a {
+  /*float: left;*/
+  display: block;
+  color: #fff;
+  font-size: 17px;
+  margin-left: 23px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #FFEA00;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+nav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+/*nav*/ input[type=text] {
+  /*float: right;*/
+  /*border: none;*/
+  font-size: 17px;
+  margin-left: 38rem; /* I had to comment off float and margin-right and put margin-left for the search bar to move*/
+  margin-top: -75px;
+  padding: 6px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+/*@media screen and (max-width: 600px) {*/
+ /* nav a,*/  input[type=text] {
+    /*float: none;*/
+    display: block;
+    text-align: left;
+    /*width: 100%;*/
+    /*margin: 0;*/
+
+
+
+    
+    margin-bottom: -2rem;
+    /*padding: 8px;*/
+   
+  }
+/*nav*/ input[type=text] {
+    border: 1px solid #ccc;
+    outline: none; /*removes that thin black boarder from around the search bar*/
+  }
+
+.search_btn {
+    background-color: #ff0000;
+    height: 34.1px;
+    margin-left: 52rem;
+    margin-top: -34px;
+    width: 3%;
+  }
+
+.fas {
+    color: #fff;
+    cursor: pointer;
+    margin-right: -5rem;
+    position: absolute;
+    left: 53.4rem;
+    transform: translate(-50%,50%); /*this helped it to center inside of the box*/
+  }
+
+.logo {
+     background-color: red;
+     height: 12.4px;
+     padding-left: 1px;
+     position: absolute;
+ } 
+
+ .logo p {
+    color: #fff;
+    font-size: 28px;
+    margin-left: 10px;
+    /*margin-left: 22px;*/
+    margin-top: -13px;
+    position: relative;
+ }
+
+ a:link {
+    text-decoration: none; /*removed the underline from logo on the video page*/
+ }
+
+ .sign_in {
+     display: flex;
+     justify-content: end;
+ }
+
+ .sign_in ul {
+    display: flex;
+   /* margin-left: 3px;*/
+    margin-right: 33px;
+    margin-top: -47px;
+}
+
+.sign_in li {
+    color: #fff;
+    flex-direction: row;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 17px;
+    list-style: none;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.cart p {
+    color: #fff;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 16px;
+    position: absolute;
+    right: 3.8rem;
+    top: 1.5rem;
+}
+
+.cart_icon {
+    color: yellow;
+    margin-left: 13px;
+    position: absolute;
+    right: 3.8rem;
+    top: 1.5rem;
+}
+
+ .container_wrapper {
+     margin-top: 10rem;
+ }
+
+ /*END OF NAVIGATION BAR*/
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    margin-left: 12rem;
+    word-break: break-all;
+    width: 26%;
+}
+
+.description p {
+    font-size: 18px;
+    margin-left: 12rem;
+    word-break: break-all;
+    width: 76%;
+}
+
+.description {
+    margin-bottom: 12rem;
+}
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 13rem;
+}
+
+footer {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+   /* margin-left: 23px; */
+
+}
+
+.container_wrapper_two {
+    margin-bottom: 18rem;
+    margin-top: 8rem;
+    margin-right: 15rem;
+}
+
+.description_two h2 {
+    word-break: break-all;
+    width: 70%;;
+}
+
+.video_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 17rem;
+    margin-top: 4rem;
+}
+
+.jean_info, .section_container {
+    margin-bottom: 8rem;
+    position: relative;
+    left: 10rem;
+}
+
+.jean_info {
+    display: flex;
+    justify-content: center;
+    margin-right: 27rem;
+}
+
+.jean_info h3 {
+    font-size: 2.5rem;
+    padding-left: 15rem;
+}
+
+.jean_info p {
+    font-size: 17px;
+    padding-left: 15rem;
+    text-align: justify;
+    word-break: break-all;
+    width: 65%;
+}
+
+.hedy_info, .section_container_two {
+    margin-bottom: 8rem;
+    position: relative;
+    left: 2rem;
+}
+
+
+.hedy_info {
+    display: flex;
+    justify-content: center;
+    margin-right: 27rem;
+}
+
+.hedy_info h3 {
+    font-size: 2.5rem;
+    padding-left: 15rem;
+}
+
+.hedy_info p {
+    font-size: 17px;
+    padding-left: 15rem;
+    text-align: justify;
+    word-break: break-all;
+    width: 54%;
+}
+
+.coders {
+    display: flex;
+    justify-content: center;
+}
+
+.coder_container {
+    font-size: 19px;;
+    margin-bottom: 6rem;
+    margin-left: 2rem;
+    margin-top: -14rem;
+}
+
+/*END OF CODER SECTION*/
+
+
+.contact_form {
+    position: relative;
+    top: -13rem;
+}
+
+.border-wrapper {
+	background: white;
+	padding-bottom: 88px;
+	margin-left: 8rem;
+	margin-right: 8rem;
+	margin-top: 5rem;
+}
+.border h2 {
+	color: black;
+    font-family: 'Fira Sans', sans-serif;
+	padding-top: 13rem;
+	margin-left: 28rem;
+	text-align: center;
+}
+
+.border p {
+    border-radius: 5px;
+	color: #486255;
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+	top: 45px;
+    text-transform: uppercase;
+}
+
+.subject {
+    margin-top: 32rem;
+}
+
+#input {
+	margin-bottom: 14px;
+	margin-left: 3rem;
+    padding: 10px;
+    position: relative;
+    left: 23rem;
+    top: 21rem;
+    width:31.2%;
+	
+	/*margin bottom gives boxes spaces underneath each other.*/
+	
+}
+
+.msg {
+    height: 88px;
+    padding-left: 26rem;
+	padding-top: 22rem;
+	width: 65%;
+}
+
+.area {
+	height: 44rem; /*height:200px;*/
+}
+
+textarea {
+	height: 80px;
+	margin-right: 40px;
+    padding-top: 1rem;
+	width: 50%;
+}
+	
+#btn {
+	background: #486255;
+    border-radius: 5px;	
+    color: #fff;
+    cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+    margin: -50px 50px;
+	margin-top: 5rem;/*margin-top: 125px;*/
+    text-align: center;
+	text-transform: uppercase;
+	margin-left: 30rem;
+    width: 22%;
+}
+
+#btn:hover,
+#btn:active{
+    background-color: #ff0000;
+}
