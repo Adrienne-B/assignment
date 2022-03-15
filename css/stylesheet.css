@@ -205,7 +205,6 @@ h2 {
 }
 
 .iframe {
-    box-shadow:  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,10 +309,15 @@ footer {
 }
 
 .coder_container {
-    font-size: 19px;;
+    font-size: 19px;
     margin-bottom: 6rem;
     margin-left: 2rem;
     margin-top: -14rem;
+}
+
+.coder_container a:hover {
+    color: green;
+
 }
 
 /*END OF CODER SECTION*/
