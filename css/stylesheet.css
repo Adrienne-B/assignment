@@ -89,11 +89,7 @@ nav a.active {
     text-align: left;
     /*width: 100%;*/
     /*margin: 0;*/
-
-
-
-    
-    margin-bottom: -2rem;
+margin-bottom: -2rem;
     /*padding: 8px;*/
    
   }
@@ -161,6 +157,10 @@ nav a.active {
     text-decoration: none;
 }
 
+.sign_in, .cart p {
+cursor: pointer;
+}
+
 .cart p {
     color: #fff;
     font-family: 'Oswald', sans-serif; 
@@ -170,12 +170,13 @@ nav a.active {
     top: 1.5rem;
 }
 
-.cart_icon {
+.cart_icon i {
     color: yellow;
     margin-left: 13px;
-    position: absolute;
-    right: 3.8rem;
-    top: 1.5rem;
+   padding-left: 3rem;
+   padding-top: 13rem;
+   position: relative;
+   z-index: 4;
 }
 
  .container_wrapper {
@@ -227,8 +228,9 @@ footer {
     padding-top: 42px;
     padding-bottom: 42px;
    /* margin-left: 23px; */
-
 }
+
+/*END OF FOOTER*/
 
 .container_wrapper_two {
     margin-bottom: 18rem;
